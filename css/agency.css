@@ -1,0 +1,1037 @@
+/*!
+ * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    overflow-x: hidden;
+    font-family: "Microsoft JhengHei","å¾®è»Ÿæ­£é»‘é«”",,"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#products .title{ line-height:50px}
+#products img{width:100%}
+.text-muted {
+    color: #777;
+    text-align: center;
+}
+
+.text-muted_left {
+    color: #777;
+    text-align: left;
+}
+
+
+.text-primary {
+    color: #fed136;
+ /*!   color: #fed136;  Benson*/
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+    color: #FFF;
+    text-align: center;
+}
+
+p.large {
+    font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: #a3be4c;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #fec503;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+
+.bg-news {
+    background-color: #f7f7f7;
+}
+
+
+
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.btn-primary {
+    border-color: #fed136;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-image: none;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,
+fieldset[disabled] .btn-primary.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-primary .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+
+.btn-xl {
+    padding: 20px 40px;
+    border-color: #fed136;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #fed136;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    background-image: none;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.btn-xl .badge {
+    color: #fed136;
+    background-color: #fff;
+}
+.navbar-brand {
+
+    padding: 8px 15px;
+}
+.navbar-nav>li>a {
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    color: #fed136;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #fec503;
+}
+
+.navbar-default .navbar-collapse {
+    border-color: rgba(255,255,255,.02);
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fed136;
+    background-color: #fed136;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #fed136;
+}
+
+.navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff;
+    background-color: #d8c182;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    border-radius: 0;
+    color: #000;
+    background-color: #d8c182;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #d8c182;
+}
+
+@media(min-width:768px) {
+
+    .navbar-default {
+        padding: 0;
+        border: 0;
+        background-color: transparent;
+        -webkit-transition: padding .3s;
+        -moz-transition: padding .3s;
+        transition: padding .3s;
+        background: #fff;
+    }
+
+    .navbar-default .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all .3s;
+        -moz-transition: all .3s;
+        transition: all .3s;
+    }
+
+    .navbar-default .navbar-nav>.active>a {
+        /*border-radius: 3px;*/
+    }
+
+    .navbar-default.navbar-shrink {
+        padding:0;
+        background-color: #fff;
+    }
+
+    .navbar-default.navbar-shrink .navbar-brand {
+        font-size: 1.5em;
+    }
+}
+
+header {
+    position: relative;
+
+    padding-top: 130px;
+    background-color: #906632;
+    background-image: url(/web/20220418004324im_/https://www.royal-restaurant.com.tw/img/bg.png);
+    /*background-attachment: scroll;
+    background-image: url(/web/20220418004324im_/https://www.royal-restaurant.com.tw/img/header-bg.jpg);
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;*/
+}
+
+
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+header .intro-text .intro-lead-in {
+    margin-bottom: 25px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 22px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+header .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+@media(min-width:768px) {
+    header .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    header .intro-text .intro-lead-in {
+        margin-bottom: 25px;
+        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+    }
+
+    header .intro-text .intro-heading {
+        margin-bottom: 50px;
+        text-transform: uppercase;
+        font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+    }
+}
+
+section {
+   padding-top: 70px;
+}
+
+section h2.section-heading {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section h3.section-subheading {
+    margin-bottom: 75px;
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@media(min-width:768px) {
+    section {
+        padding-top: 70px;
+    }
+}
+
+.service-heading {
+    margin: 15px 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item {
+    right: 0;
+    margin: 0 0 15px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(254,209,54,.9);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+    opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    margin-top: -12px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+
+#txt_left {
+    text-align:left;
+}
+
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+    margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+    margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+    margin: 0;
+    text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+    margin: 0;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+#portfolio * {
+    z-index: 2;
+}
+
+@media(min-width:768px) {
+    #portfolio .portfolio-item {
+        margin: 0 0 30px;
+    }
+}
+
+
+@media(min-width:992px) {
+
+}
+
+@media(min-width:1200px) {
+
+}
+
+.team-member {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff;
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none;
+}
+
+.team-member p {
+    margin-top: 0;
+}
+
+aside.clients img {
+    margin: 50px auto;
+}
+
+section#contact {
+    background-color: #222;
+    background-image: url(/web/20220418004324im_/https://www.royal-restaurant.com.tw/img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact .form-group {
+    margin-bottom: 25px;
+}
+
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px;
+}
+
+section#contact .form-group input.form-control {
+    height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+    height: 236px;
+}
+
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none;
+}
+
+section#contact::-webkit-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact::-moz-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact:-ms-input-placeholder {
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    color: #bbb;
+}
+
+section#contact .text-danger {
+    color: #e74c3c;
+}
+
+footer {
+    padding-top: 45px;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #6f940e;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+    outline: 0;
+}
+
+.portfolio-modal .modal-content {
+    padding: 100px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin-bottom: 15px;
+    font-size: 3em;
+}
+
+.portfolio-modal .modal-content p {
+    margin-bottom: 30px;
+    color: #000;
+    text-align: left;
+}
+
+
+.portfolio-modal .modal-content p.item-intro {
+    margin: 20px 0 30px;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 75px;
+    margin-left: 35px;
+    background-color: #222;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 75px;
+    background-color: #222;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none;
+    opacity: 0;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+::selection {
+    text-shadow: none;
+    background: #fed136;
+}
+
+img::selection {
+    background: 0 0;
+}
+
+img::-moz-selection {
+    background: 0 0;
+}
+
+body {
+    webkit-tap-highlight-color: #fed136;
+}
+
+#imgpadding {
+    padding-left:50px;
+}
+
+.lineimg{width: 40px;
+
+  margin-top: -3px;
+  margin-left: -1px;}
+
+.upspace{margin-top: 50px;}
+.line {
+  float: left;
+  width: 100%;
+  padding: 60px 0 50px;
+}
+.vid {
+  position: relative;
+  padding-bottom: 44.25%;
+  /* padding-top: 30px; */
+  height: 0;
+  overflow: hidden;
+  text-align: center;
+}
+.youtube{height: 344px;}
+.redtip{color: #910303;}
+.font15{font-size: 15px;}
+.gray{color: #b5b5b5;}
+.textmain{font-size: 18px;}
+/***æ­¤æ¬¡æ–°å¢ž***/
+.base-list ul{
+    padding:0;
+}
+.base-list ul>li {
+    list-style-type: none;
+    border-left: 2px solid black;
+    padding-left: 7px;
+    margin-top: 5px;
+    font-size: 18px;
+}
+.shadow-list {
+    -webkit-box-shadow: 0 0 15px 5px rgba(140, 140, 140, 0.6);
+    -moz-box-shadow: 0 0 15px 5px rgba(140, 140, 140, 0.6);
+    box-shadow: 0 0 15px 5px rgba(140, 140, 140, 0.4);
+}
+#about .portfolio-item .portfolio-caption2, #about2 .portfolio-item .portfolio-caption2, #services .portfolio-item .portfolio-caption2, .caption {
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #fff;
+}
+#portfolio .portfolio-item .portfolio-caption h4,
+#about .portfolio-item .portfolio-caption h4,
+#about .portfolio-item .portfolio-caption2 h4,
+#about2 .portfolio-item .portfolio-caption h4,
+#services .portfolio-item .portfolio-caption h4, .caption h4 {
+    text-transform: none;
+    color: #8fb134;
+    font-size: 20px;
+    text-align: center;
+}
+.caption h5 {
+text-align: center;
+    }
+.rightpic{
+position: fixed;
+top: 200px;
+right:0px;
+z-index: 999;
+}
+.rightpic p{
+    background: black;
+}
+.banner img{
+    border: 1px solid #9d9d9d;
+    padding: 5px;
+}
+
+/***æ­¤æ¬¡æ–°å¢ž***/
+.banner-pic{
+    text-align: left;
+}
+.banner-name{
+    position: relative;
+    top: 147px;
+    /* right: 59px; */
+    left: 20px;
+    margin: 0 !important;
+    padding: 15px !important;
+    color: white;
+}
+.banner-name p{
+    text-align: left;
+}
+.nownews{
+    background-color: #420909;
+    color: white;
+    padding-bottom: 19px;
+
+}
+.nownews h3{font-weight: 100;}
+.nownews ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 15px;
+}
+.nownews ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: disc;
+}
+.shop-pic{
+    position: relative;
+    top: -30px;
+
+
+}
+@media(max-width:768px) {
+    .shop-pic{top:0;}
+
+    }
+
+
+.shop-pic img{
+    width: 360px;
+}
+.about{text-align: left;}
+.about p{text-align: left;}
+.w-color-1{color:#000;}
+.w-color-2{color:#d5ac6f;}
+.w-color-3{
+  color: #000;
+    border: 1px solid;
+    padding: 13px;
+font-size: 12px;}
+.nav-tabs>li {
+    float: none;
+    display: inline-block;
+}
+.nav-tabs>li>a {color: #420909; font-size: 15px;}
+.nav-tabs>li>a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 3px solid #d5ac6f;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 3px solid #d5ac6f;
+    color: #420909;
+    font-weight: bold;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.menu-01{
+padding-top: 28px;
+}
+
+.menu-japan-01{
+    color: #c88627;
+}
+.img-responsive {
+    margin: 0 auto;
+}
+.bg-deep-gray {
+    background-color: #282828;
+}
+.table-list-01{margin-top: 20px;margin-bottom: 20px;}
+.table-list-01>div{width: 300px;     margin: 20px;}
+.table-list-01>div img{}
+.table-list-01>div>div{background-color: white;     line-height: 20px; padding: 10px;}
+.table-list-01>div>div .table-list-name01{
+ font-size: 16px;
+}
+.table-list-01>div>div .table-list-name02{
+    font-size: 15px;
+
+}
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 26.25%; /* Ratio 16:9 ( 100%/16*9 = 56.25% ) */
+}
+.iframe-container > *{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.footer-word{text-align: left;}
+.footer-word .footer-word-title{
+    font-size: 18px;
+    color: #a07a4c;
+    padding-bottom: 15px;
+}
+.footer-word .footer-word-info{
+ line-height: 24px;
+ font-weight: bold;
+ padding-bottom: 55px;
+}
+.copyright{
+    background-color: #a07a4c;
+    color: white;
+    padding-top: 15px;
+    padding-bottom:15px;
+}
+.span8 img { width: 100%; height: 100%; }
+.products-list-01{list-style-type: none; padding: 27px;}
+.products-list-01 li{
+        text-align: left;
+    color: #6e2828;
+    border-bottom: 1px solid;
+    padding-bottom: 4px;
+    font-size: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    letter-spacing: 2px;
+}
+.products-list-01 li span{
+    float: right;
+}
+.menu-list-01{list-style-type: none; padding: 27px 17px 10px 17px;}
+.menu-list-01 li{
+    display: inline-block;
+    width: 48%;
+    font-size: 16px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    line-height: 27px;
+    letter-spacing: 3px;
+
+}
+.menu-list-01 li:nth-child(odd){
+    border-right: 1px solid #d5ac6f;
+}
+/*
+.menu-list-01 li:nth-child(1){border-bottom: 1px solid #d5ac6f;}
+.menu-list-01 li:nth-child(2){border-bottom: 1px solid #d5ac6f;}
+*/
+
+/*æ‰‹æ©Ÿç‰ˆ*/
+@media screen and (max-device-width: 480px) {
+    header{
+            padding-top: 80px;
+
+    }
+    .rightpic img{
+        display:none;
+
+    }
+    .rightpic{
+        top: 100px;
+        width:120px;
+    }
+    .banner-pic img{
+      width: 100%;
+    }
+    .shop-pic img {
+  width: 100%;
+    }
+    .navbar-brand>img{
+        width: 38px;
+    }
+    .navbar-default {
+    border-color: transparent;
+    background-color: #fff;
+    }
+    .navbar-default .navbar-toggle {
+    border-color: #8f0000;
+    background-color: #8f0000;
+    }
+    .banner-name {
+    top: 10px;
+    left: 10px;
+    }
+    .table-list-01>div {
+    width:auto;
+    margin: 20px;
+    }
+    .env-pic-list>div{
+        margin: 20px;
+    }
+    .menu-list-01 li {
+    font-size: 12px;
+    }
+
+
+}
+
+/*
+     FILE ARCHIVED ON 00:43:24 Apr 18, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 14:33:22 Dec 28, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 92.368
+  exclusion.robots: 0.061
+  exclusion.robots.policy: 0.056
+  cdx.remote: 0.046
+  esindex: 0.007
+  LoadShardBlock: 39.339 (3)
+  PetaboxLoader3.datanode: 66.865 (5)
+  CDXLines.iter: 14.989 (3)
+  load_resource: 143.373
+  PetaboxLoader3.resolve: 28.019
+  loaddict: 86.141
+*/
